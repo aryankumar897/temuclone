@@ -731,7 +731,6 @@
 //   );
 // }
 
-
 //Infinite Scroll
 
 // import { useState } from "react";
@@ -1034,7 +1033,6 @@
 
 //Pagination
 
-
 // import { useState } from "react";
 
 // export default function Pagination() {
@@ -1082,3 +1080,11 @@
 //     </div>
 //   );
 // }
+
+export default function Inter() {
+  return (
+    <>
+      <h1>inter</h1>
+    </>
+  );
+}
