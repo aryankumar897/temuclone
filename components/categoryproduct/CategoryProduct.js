@@ -277,7 +277,7 @@ export default function CategoryExplore() {
 
     const fetchCategoryData = async () => {
       try {
-        const res = await fetch(`/api/category-products?cat=${category}`);
+        const res = await fetch(`${process.env.API}/category-products?cat=${category}`);
 
         const data = await res.json();
 
