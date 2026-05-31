@@ -1,4 +1,5 @@
 "use client";
+export const dynamic = "force-dynamic";
 import TopBar from "@/components/topbar/TopBar";
 
 import Header from "@/components/layout/Header/Header";

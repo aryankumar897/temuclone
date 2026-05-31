@@ -277,21 +277,14 @@ export default function CategoryExplore() {
 
     const fetchCategoryData = async () => {
       try {
-        const res = await fetch(
-          `/api/category-products?cat=${category}`,
-        );
+        const res = await fetch(`/api/category-products?cat=${category}`);
 
         const data = await res.json();
 
         if (data.success) {
-          const dynamicFilters =
-            Object.keys(data.filters);
+          const dynamicFilters = Object.keys(data.filters);
 
-          setFilters([
-            "Filters",
-            "Sort by: Relevance",
-            ...dynamicFilters,
-          ]);
+          setFilters(["Filters", "Sort by: Relevance", ...dynamicFilters]);
 
           setFilterOptions(data.filters);
         }
@@ -302,7 +295,6 @@ export default function CategoryExplore() {
 
     fetchCategoryData();
   }, [category]);
-
 
   /* =========================
      ARROWS
