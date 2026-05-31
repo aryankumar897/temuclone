@@ -55,10 +55,7 @@ const nextConfig = {
     GMAIL_USER: config.GMAIL_USER,
     GMAIL_APP_PASS: config.GMAIL_APP_PASS,
 
-    APP_ID: config.APP_ID,
-    KEY: config.KEY,
-    SECRET: config.SECRET,
-    CLUSTER: config.CLUSTER,
+  
   },
 
    reactCompiler: true,

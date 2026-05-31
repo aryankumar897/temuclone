@@ -32,10 +32,7 @@ const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY;
 const GMAIL_USER = process.env.GMAIL_USER;
 const GMAIL_APP_PASS = process.env.GMAIL_APP_PASS;
 
-const APP_ID = process.env.APP_ID;
-const KEY = process.env.KEY;
-const SECRET = process.env.SECRET;
-const CLUSTER = process.env.CLUSTER;
+
 
 module.exports = {
   DB_URI,
@@ -64,10 +61,7 @@ module.exports = {
   GMAIL_USER,
   GMAIL_APP_PASS,
 
-  APP_ID,
-  KEY,
-  SECRET,
-  CLUSTER,
+
   GOOGLE_API_KEY,
 };
 
